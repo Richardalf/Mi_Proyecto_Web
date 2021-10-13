@@ -1,3 +1,3 @@
 # Mi primer proyecto web
-este es mi proyecto web para el curso Desarrollador Web Jr. 
-espero conocer mas en este curso.
+Este es mi proyecto web para el curso Desarrollador Web Jr. 
+Espero conocer más en este curso.
