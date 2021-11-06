@@ -3,13 +3,13 @@
         {
             "nombre" : "Principe cruel",
             "imagen": "",
-            "autor": "Holly Black",
+            "autor" : "Holly Black",
             "descripcion" : "Jude tenia siete años cuando sus padres fueron asesinados..",
             "calificacion" : "5/5"
             
         },
         {
-            "nombre": "Sombra y hueso"
+            "nombre" : "Sombra y hueso"
         }
     ]
 
