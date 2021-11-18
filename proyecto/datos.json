@@ -1,15 +1,204 @@
 {
-    "Name": [
+    "names": [
         {
-            "nombre" : "Principe cruel",
-            "imagen": "",
+            "id" : 1,
+            "nombre": "El principe cruel",
             "autor" : "Holly Black",
-            "descripcion" : "Jude tenia siete años cuando sus padres fueron asesinados..",
-            "calificacion" : "5/5"
-            
+            "descripcion" : "Jude tenia siete años cuando sus padres fueron asesinados y, junto con sus dos hermanas, fue trasladada a la traicionera Corte Suprema del Reino Feérico. Diez años más tarde, lo único que Jude desea, a pesar de ser una mera mortal, es sentir que pertenece a ese lugar. Pero muchos de los habitantes desprecian a los humanos. Especialmente el Príncipe Cardan, el hijo más joven y perverso del Alto Rey. Para hacerse un hueco en la Corte, Jude deberá enfrentarse a él. Y afrontar las consecuencias. Como resultado, se verá envuelta en las intrigas y engaños del palacio, además de descubrir su propia habilidad para el derramamiento de sangre. Al tiempo que la guerra civil amenaza con arrasar las Cortes Feéricas, Jude se verá obligada a poner en riesgo su propia vida con una peligrosa alianza.",
+            "calificacion" : "5.0/5.0",
+            "Tipo" : "Fantasia",
+            "img" : "https://www.elsotano.com/imagenes_grandes/9788417/978841739061.JPG",
+            "linkk" : "https://1lib.mx/book/11599970/20ade3?dsource=recommend"
         },
         {
-            "nombre" : "Sombra y hueso"
+            "id": 2,
+            "nombre" : "Sombra y hueso",
+            "autor" : "Leigh Bardugo",
+            "descripcion": "Alina Starkov no espera mucho de la vida. Se quedó huérfana después de la guerra y lo único que tiene en el mundo es a su amigo Mal. A raíz de un ataque que recibe Mal al entrar en La Sombra, una oscuridad antinatural repleta de monstruos que ha aislado el país, Alina revela un poder latente que ni ella misma sabía que tenía. Tras ese episodio, Alina es conducida a la fuerza hasta la corte real para ser entrenada como un miembro de los Grisha, un grupo de magos de élite comandado por un individuo misterioso que se hace llamar El Oscuro.",
+            "calificacion" : "4.0/5.0",
+            "Tipo" : "Fantasia",
+            "img" : "https://covers.zlibcdn2.com/covers299/books/b3/9f/10/b39f10f2299629b325913c3bf09380e1.jpg",
+            "linkk" : "https://1lib.mx/book/11148602/8dac56?dsource=recommend"
+        },
+        {
+            "id": 3,
+            "nombre" : "Asedio y tormenta",
+            "autor" : "Leigh Bardugo",
+            "descripcion" : "LA OSCURIDAD NUNCA MUERE. Perseguida a través del Mar Auténtico, atormentada por las vidas con las que acabó en la Sombra, Alina trata de sobrevivir junto a Mal en una tierra extraña, a la vez que mantiene en secreto su identidad como Invocadora del Sol. Pero no podrá huir durante mucho tiempo ni de su pasado ni de su destino. El Oscuro ha emergido de la Sombra con un terrorífico poder nuevo, y con un peligroso plan que pondrá a prueba los mismísimos límites del mundo natural. Con la ayuda de un carismático corsario, Alina volverá al país que trató de abandonar, decidida a luchar contra las fuerzas que amenazan a Ravka. Pero a medida que su poder crece, Alina se pierde cada vez más en el juego de magia prohibida del Oscuro, y se aleja de Mal. Pronto tendrá que elegir entre su país, su poder y el amor que siempre pensó que la guiaría, o arriesgarse a perderlo todo en la tormenta que se avecina.",
+            "Tipo" : "Fantasia",
+            "calificacion" : "4.0/5.0",
+            "img" : "https://covers.zlibcdn2.com/covers299/books/7c/e1/b8/7ce1b8078aeee254fe6ba1ff98290cdf.jpg",
+            "linkk" : "https://1lib.mx/book/11148590/e96d06?dsource=recommend"
+        },
+        {
+            "id": 4,
+            "nombre" : "Ruina y asenso",
+            "autor" :"Leigh Bardugo",
+            "descripcion" : "El Oscuro gobierna Ravka desde su trono de sombras. Ahora el destino de la nación está en manos de una Invocadora del Sol sin poderes, un rastreador caído en desgracia y los últimos vestigios de lo que alguna vez fue un gran ejército de magos. En las profundidades de una antigua red de túneles y cuevas, una debilitada Alina debe someterse a la dudosa protección del Apparat y de aquellos que la veneran como a una Santa. Pero tiene otros planes, como lanzarse a la caza del elusivo pájaro de fuego y comprobar si la supervivencia de cierto príncipe forajido es algo más que una esperanza. Alina deberá forjar nuevas alianzas y dejar de lado antiguas rivalidades para, junto con Mal, encontrar el último amplificador de Morozova. Pero tan pronto como empieza a desvelar los secretos del Oscuro, sale a la luz un pasado que alterará para siempre su visión del lazo que los une y el poder que ella detenta. El pájaro de fuego es lo único que se interpone entre Ravka y la destrucción, y Alina podría pagar un alto precio por conseguirlo: el mismísimo futuro por el que está luchando.",
+            "Tipo" :"Fantasia",
+            "calificacion" :"4.0/5.0",
+            "img" : "https://covers.zlibcdn2.com/covers299/books/ab/03/84/ab03847c341c457b1e6b454be069a83b.jpg",
+            "linkk" : "https://1lib.mx/book/11148597/f1c2cd?dsource=recommend"
+        },
+        {
+            "id" : 5,
+            "nombre" : "Un cuento perfecto",
+            "autor" : "Elísabet Benavent",
+            "descripcion" : "¿Qué sucede cuando descubres que el final de tu cuento no es como soñabas? Érase una vez una mujer que lo tenía todo y un chico que no tenía nada. Érase una vez una historia de amor entre el éxito y la duda. Érase una vez un cuento perfecto.",
+            "Tipo" : "Romance",
+            "calificacion" : "5.0/5.0",
+            "img" : "https://covers.zlibcdn2.com/covers299/books/3c/bb/e7/3cbbe7695b775df958cac125fc71c6be.jpg",
+            "linkk" : "https://1lib.mx/book/5420357/1e0701?dsource=recommend"
+        },
+        {
+            "id" : 6,
+            "nombre" : "Seis de cuervos",
+            "autor" : "Leigh Bardugo",
+            "descripcion" : "KETERDAM. Un bullicioso foco de comercio internacional donde cualquier cosa se puede conseguir por el precio adecuado. Y nadie es más consciente de esto último que el prodigio criminal Kaz Brekker. A Kaz le acaban de ofrecer la oportunidad de llevar a cabo el mayor golpe de su vida, un mortal asalto a una fortaleza que podría hacerle más rico de lo que jamás se había atrevido a imaginar en sus sueños más salvajes. Pero no puede realizarlo por si solo… Un preso con sed de venganza. Un tirador de primera incapaz de rechazar una apuesta. Un fugitivo acostumbrado al lujo. Una espía conocida como el Espectro. Una Mortificadora que usa su magia para sobrevivir en los suburbios. Un ladrón con un don especial para las huidas imposibles. Los miembros del grupo de Kaz son los únicos que pueden evitar la destrucción del mundo. Bueno, lo serán si no se matan entre ellos primero.",
+            "Tipo" : "Fantasia",
+            "calificacion" : "5.0/5.0",
+            "img" : "https://covers.zlibcdn2.com/covers299/books/b7/c5/08/b7c508f2511dda77e25c7b4921a18012.jpg",
+            "linkk" : "https://1lib.mx/book/11148599/26825a?dsource=recommend"
+        },
+        {
+            "id" : 7,
+            "nombre" : "Asesino de brujas",
+            "autor" : "Shelby Mahurin",
+            "descripcion" : "Dos años atrás, Louise le Blanc huyó de su aquelarre y se refugió en la ciudad de Cesarine, donde renunció a la magia para vivir de lo que pudiera robar. Allí, cazan a brujas como Lou. Les temen. Y las queman. Como cazador de la Iglesia, Reid Diggory ha vivido su vida bajo una regla: 'No permitirás que ninguna bruja viva'. Pero cuando Lou realiza una gran artimaña, tanto ella como Reid se ven obligados a aceptar una situación impensada: el matrimonio. Incapaz de ignorar sus sentimientos que son cada vez más fuertes, pero sin poder cambiar quién es, Lou debe elegir.",
+            "Tipo" : "Fantasia",
+            "calificacion" : "5.0/5.0",
+            "img" : "https://covers.zlibcdn2.com/covers299/books/10/5f/0e/105f0e79c8b45ea462a3af272830317a.png",
+            "linkk" : "https://1lib.mx/book/11287656/90f9bd?dsource=recommend"
+        },
+        {
+            "id" : 8,
+            "nombre" : "Nosotros en la luna",
+            "autor" : "Alice Kellen",
+            "descripcion" : "Tras el éxito de «Deja que ocurra» vuelve Alice Kellen con una novela que te enamorará. Una noche en París. Dos caminos entrelazándose. No hay nada más eterno que un encuentro fugaz. Cuando Rhys y Ginger se conocen en las calles de la ciudad de la luz, no imaginan que sus vidas se unirán para siempre, a pesar de la distancia y de que no puedan ser más diferentes. Ella vive en Londres y a veces se siente tan perdida que se ha olvidado hasta de sus propios sueños. Él es incapaz de quedarse quieto en ningún lugar y cree saber quién es. Y cada noche su amistad crece entre «emails» llenos de confidencias, dudas e inquietudes. Pero ¿qué ocurre cuando el paso del tiempo pone a prueba su relación? ¿Es posible colgarse de la luna junto a otra persona sin poner en riesgo el corazón? Una historia sobre el amor, el destino y la búsqueda de uno mismo. Porque a veces solo hace falta mirar la luna para sentirte cerca de otra persona.",
+            "Tipo" : "Romance",
+            "calificacion" : "4.0/5.0",
+            "img" : "https://covers.zlibcdn2.com/covers299/books/55/a5/08/55a508af252a85d31089e960e489e007.jpg",
+            "linkk" : "https://1lib.mx/book/11099943/0171e2?dsource=recommend"
+        },
+        {
+            "id" : 9,
+            "nombre" : "Tu y otros desastres naturales",
+            "autor" : "María Martínez",
+            "descripcion" : "Harper ha planificado hasta el último detalle de su futuro. Pronto acabará sus estudios y logrará el trabajo por el que tanto se ha esforzado. Tendrá la vida que desea. Sin embargo, una triste pérdida hará que su plan perfecto, aquello que creía querer más que nada, se transforme de nuevo en confusión, dudas e inseguridades. Porque los secretos no pueden guardarse para siempre. Porque hay caminos destinados a cruzarse. Porque una sola decisión puede cambiarlo todo y nada da más miedo que arriesgarse por tus sueños. Porque la vida no se trata de sobrevivir a la tormenta, sino de aprender a bailar bajo ella.",
+            "Tipo" : "Romance",
+            "calificacion" : "5.0/5.0",
+            "img" : "https://covers.zlibcdn2.com/covers299/books/16/28/c9/1628c95ee6b1a6bac277e7f5d5c2ebc8.jpg",
+            "linkk" : "https://1lib.mx/book/11747243/741c79"
+        },
+        {
+            "id" : 10,
+            "nombre" : "Lore",
+            "autor" : "Alexandra Bracken",
+            "descripcion" : "Cada siete años comienza el agón. Como castigo por la rebelión, nueve dioses griegos son forzados a caminar por la Tierra, entre los mortales, mientras son perseguidos por cazadores, descendientes de antiguos linajes, con ansias de matar a un dios y hacerse con su poder divino y su inmortalidad",
+            "Tipo" : "Fantasia",
+            "calificacion" : "5.0/5.0",
+            "img" : "https://covers.zlibcdn2.com/covers299/books/1e/b5/4f/1eb54f04b59aa03e31c5ffa1be1697c8.jpg",
+            "linkk" : "https://1lib.mx/book/17313763/e654fe"
+        },
+        {
+            "id" : 11,
+            "nombre" : "La vida invisible de Addie LaRue",
+            "autor" : "V.E. Schwab",
+            "descripcion" : "Francia, 1714: en un momento de desesperación, una joven hace un trato fáustico para vivir para siempre y es maldecida a ser olvidada por todos los que conoce. Así comienza la extraordinaria vida de Addie LaRue, y una deslumbrante aventura que se desarrollará a lo largo de siglos y continentes, a través de la historia y el arte, mientras una joven descubre hasta donde llegará para dejar su huella en el mundo. Pero todo cambia cuando, después de casi 300 años, Addie se encuentra con un joven en una librería escondida y él recuerda su nombre.",
+            "Tipo" : "Ficción",
+            "calificacion" : "4.0/5.0",
+            "img" : "https://covers.zlibcdn2.com/covers/books/46/d0/ba/46d0bad4527c03ef3a488d8b8d5079aa.jpg",
+            "linkk" : "https://1lib.mx/book/11269043/9a0db6?dsource=recommend"
+        },
+        {
+            "id" : 12,
+            "nombre" : "Renegados",
+            "autor" : "Marissa Meyer",
+            "descripcion" : "Los Renegados son un grupo de prodigios, humanos con habilidades extraordinarias, que emergieron de las ruinas de una sociedad que se había desmoronado y establecieron la paz y el orden allí donde reinaba el caos. Como campeones de la justicia, continúan siendo un símbolo de esperanza y valor para todo el mundo... excepto para los villanos a los que una vez derrotaron. Nova tiene una razón de peso para odiar a esos Renegados, y quiere venganza. Mientras se acerca cada vez más a su objetivo, conocerá a Adrian, un Renegado que cree en la justicia, y en Nova. Pero Nova solo le es leal a los villanos, y ellos, además, tienen el poder suficiente como para acabar con ambos.",
+            "Tipo" : "Drama y romance",
+            "calificacion" : "4.0/5.0",
+            "img" : "https://www.libreriasinopsis.com/imagenes/9788417/978841739057.JPG",
+            "linkk" : "https://1lib.mx/book/6144263/e1974b"
+        },
+        {
+            "id" : 13,
+            "nombre" : "Reina roja",
+            "autor" : "Victoria Aveyard",
+            "descripcion" : "En una sociedad dividida por el color de la sangre, los Rojos luchan por sobrevivir bajo la sombra de los Plateados, «superhumanos» con poderes terribles que les permiten manejar el mundo a su antojo. Pero cuando se revela que Mare Barrow —una joven ladronzuela Roja— tiene también esas habilidades, es llevada al mundo de los Plateados. Allí descubrirá que el poder es un juego peligroso y que la única certeza es la traición. «En la escuela aprendimos acerca del mundo anterior a este, el mundo de los ángeles y los dioses que vivían en el cielo y gobernaban la Tierra con amor y bondad. Algunos dicen que son solo leyendas, pero yo no lo creo. Los dioses aún nos dominan, han descendido de las estrellas y no les queda ni un ápice de bondad».",
+            "Tipo" : "Drama",
+            "calificacion" : "5.0/5.0",
+            "img" : "https://covers.zlibcdn2.com/covers299/books/c9/40/1f/c9401f89e6b70c480abcb03295222b5f.jpg",
+            "linkk" : "https://1lib.mx/book/5695593/3af2be"
+        },
+        {
+            "id" : 14,
+            "nombre" : "Selección",
+            "autor" : "Kiera Cass",
+            "descripcion" : "Para treinta y cinco chicas, La Selección es una oportunidad que solo se presenta una vez en la vida. La oportunidad de escapar de la vida que les ha tocado por nacer en una determinada familia. La oportunidad de que las trasladen a un mundo de trajes preciosos y joyas que no tienen precio. La oportunidad de vivir en un palacio y de competir por el corazón del guapísimo príncipe Maxon Sin embargo, para America Singer, ser seleccionada es una pesadilla porque significa alejarse de su amor secreto, Aspen, quien pertenece a una casta inferior a la de ella; y también abandonar su hogar para pelear por una corona que no desea y vivir en un palacio que está bajo la constante amenaza de ataques violentos por parte de los rebeldes",
+            "Tipo" : "Drama",
+            "calificacion" : "5.0/5.0",
+            "img" : "https://covers.zlibcdn2.com/covers/books/aa/47/d7/aa47d712618a66478e5ddd5d8b65b62a.png",
+            "linkk" : "https://1lib.mx/book/4760603/3d1c50?dsource=recommend"
+        },
+        {
+            "id" : 15,
+            "nombre" : "Los siete maridos de Evelin Lugo",
+            "autor" : "Taylor Jankins reid",
+            "descripcion" : "Evelyn Hugo, el ícono de Hollywood que se ha recluido en su edad madura, decide al fin contar la verdad sobre su vida llena de glamour y de escándalos. Pero cuando elige para ello a Monique Grant, una periodista desconocida, nadie se sorprende más que la misma Monique. ¿Por qué ella? ¿Por qué ahora? Monique no está precisamente en su mejor momento. Su marido la abandonó, y su vida profesional no avanza. Aun ignorando por qué Evelyn la ha elegido para escribir su biografía, Monique está decidida a aprovechar esa oportunidad para dar impulso a su carrera. Convocada al lujoso apartamento de Evelyn, Monique escucha fascinada mientras la actriz le cuenta su historia. Desde su llegada a Los Ángeles en los años 50 hasta su decisión de abandonar su carrera en el espectáculo en los 80 —y, desde luego, los siete maridos que tuvo en ese tiempo — Evelyn narra una historia de ambición implacable, amistad inesperada, y un gran amor prohibido. Monique empieza a sentir una conexión muy real con la actriz legendaria, pero cuando el relato de Evelyn se acerca a su fin, resulta evidente que su vida se cruza con la de Monique de un modo trágico e irreversible.",
+            "Tipo" : "Drama contemporaneo",
+            "calificacion" : "5.0/5.0",
+            "img" : "https://covers.zlibcdn2.com/covers/books/53/12/4d/53124d26fcc3a9da63be8e87dde232e7.jpg",
+            "linkk" : "https://1lib.mx/book/9813745/ffb5a2?dsource=recommend"
+        },
+        {
+            "id" : 16,
+            "nombre" : "Los juegos del hambre",
+            "autor" : "Suzanne Collins",
+            "descripcion" : "GANAR SIGNIFICA FAMA Y RIQUEZA. PERDER SIGNIFICA UNA MUERTE SEGURA. En una oscura versión del futuropróximo, doce chicos y doce chicas se ven obligados a participar en un reality show llamado Los juegos del hambre. Solo hay una regla: matar o morir. Cuando Katniss Everdeen, una joven de dieciséis años se presenta voluntaria para ocuparel lugar de su hermana en los juegos, lo entiende como una condena a muerte. Sin embargo Katniss ya ha visto la muertede cerca y la supervivencia forma parte de su naturaleza. ¡Que empiecen los septuagésimo cuartos juegos del hambre!",
+            "Tipo" : "Drama y ficción",
+            "calificacion" : "4.0/5.0",
+            "img" : "https://covers.zlibcdn2.com/covers299/books/d1/3d/ed/d13ded4b39e39ee06677c2504e52b91c.jpg",
+            "linkk" : "https://1lib.mx/book/10482725/38c98d"
+        },
+        {
+            "id" : 17,
+            "nombre" : "Corte de rosas y espinas",
+            "autor" : "Sarah J. Maas",
+            "descripcion" : "Feyre, una cazadora de diecinueve años, mata a un lobo en el bosque. Como consecuencia, una criatura monstruosa llega buscando venganza y la arrastra a una tierra encantada que solo conoce a través de las leyendas. Allí descubre que su captor no es un animal, sino Tamlin, uno de los letales fae. En su cautiverio, se dará cuenta de que lo que siente por él pasa de la fría hostilidad a una pasión que arderá a pesar de las advertencias que ha recibido. Pero una antigua y siniestra sombra crece en esta tierra extraña, y Feyre deberá encontrar una forma de detenerla o Tamlin y su mundo estarán condenados para siempre.",
+            "Tipo" : "Drama y ficción",
+            "calificacion" : "3.0/5.0",
+            "img" : "https://covers.zlibcdn2.com/covers299/books/41/dd/72/41dd7223fdc85ecf1da93525aad67951.jpg",
+            "linkk" : "https://1lib.mx/book/11163985/8ae3b5"
+        },
+        {
+            "id" : 18,
+            "nombre" : "Harry potter y la Piedra Filosofal",
+            "autor" : "J.K. Rowling",
+            "descripcion" : "Harry Potter nunca ha oído hablar de Hogwarts cuando en el felpudo del número 4 de Privet Drive empieza a caer una lluvia de sobres de pergamino amarillento, con la dirección escrita con tinta verde y un sello de lacre púrpura. Y aunque los horribles tíos de Harry se apresuran a confiscar las cartas, el día que Harry cumple once años un hombre gigantesco llamado Rubeus Hagrid, cuyos ojos brillan como escarabajos negros, irrumpe con una noticia extraordinaria: Harry Potter es un mago, y le han concedido una plaza en el Colegio Hogwarts de Magia y Hechicería ¡Una aventura increíble está a punto de comenza",
+            "Tipo" : "Fantasia",
+            "calificacion" : "5.0/5.0",
+            "img" : "https://covers.zlibcdn2.com/covers299/books/0f/b7/26/0fb726331214c9be6b4ef268899f16d1.jpg",
+            "linkk" : "https://1lib.mx/book/4646658/bc9d3a"
+        },
+        {
+            "id" : 19,
+            "nombre" : "La biblioteca a media noche",
+            "autor" : "Matt Haig",
+            "descripcion" : "«Entre la vida y la muerte hay una biblioteca. Y los estantes de esa biblioteca son infinitos. Cada libro da la oportunidad de probar otra vida que podrías haber vivido y de comprobar cómo habrían cambiado las cosas si hubieras tomado otras decisiones... ¿Habrías hecho algo de manera diferente si hubieras tenido la oportunidad?». Nora Seed aparece, sin saber cómo, en la Biblioteca de la Medianoche, donde se le ofrece una nueva oportunidad para hacer las cosas bien. Hasta ese momento, su vida ha estado marcada por la infelicidad y el arrepentimiento. Nora siente que ha defraudado a todos, y también a ella misma. Pero esto está a punto de cambiar.",
+            "Tipo" : "Ficción",
+            "calificacion" : "4.0/5.0",
+            "img" : "https://covers.zlibcdn2.com/covers299/books/94/9b/f0/949bf091540aba865a7bbb89c5e3228b.jpg",
+            "linkk" : "https://1lib.mx/book/11844299/21138b?dsource=recommend"
+        },
+        {
+            "id" : 20,
+            "nombre" : "Todo lo que nunca fuimos",
+            "autor" : "Alice Kellen",
+            "descripcion" : " Leah está rota. Leah ya no pinta. Leah es un espejismo desde el accidente que se llevó a sus padre. Axel es el mejor amigo de su hermano mayor y, cuando accede a acogerla en su casa durante unos meses, quiere ayudarla a encontrar y unir los pedazos de la chica llena de color que un día fue. Pero no sabe que ella siempre ha estado enamorada de él, a pesar de que sean casi familia, ni de que toda su vida está a punto de cambiar.  Porque ella está prohibida, pero le despierta la piel. Porque es el mar, noches estrelladas y vinilos de los Beatles. Porque a veces basta un «deja que ocurra» para tenerlo todo.",
+            "Tipo" : "Ficcion y romace",
+            "calificacion" : "5.0/5.0",
+            "img" : "https://covers.zlibcdn2.com/covers/books/82/57/dc/8257dc4f6c48670d7cbfcae4d13bc8b5.jpg",
+            "linkk" : "https://1lib.mx/book/5595293/773988?dsource=recommend"
         }
     ]
 
