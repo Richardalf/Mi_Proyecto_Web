@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="javascrip/menu.js"></script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Jost:wght@300&display=swap" rel="stylesheet">  
+    <title>Mi proyecto web</title>
+</head>
+<body>
+    <header>
+        <div id="Bloque">
+          <img id="Logo" src="img/logoNuevo.png" alt="Libros">
+          <h1>RLibros</h1>
+          <h2>¡Bienvenidos!</h2>
+        </div>
+    </header>
+    <nav>
+        <div class="toggle">
+            <i class="material-icons-outlined" onclick="mobile()"><img id="lista" src="img/lista.png" alt="lista"></i>
+        </div>
+        <ul id="idMobile">
+            <li><a href="proyecto.html">Inicio</a></li>
+            <li><a href="inicio.html">Acerca</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="https://richardalf.github.io/Mi_Proyecto_web/">portafolio</a></li>               
+        </ul>
+    </nav>
+    <section id="ITfondo">
+        <!--<img id="fondolibros" src="img/fondo.jpg" alt="">-->
+        <div id="IT">
+          <h2>¿Cómo funciona la página?</h2>
+          <p>La funcionalidad de la página es muy simple, sólo tienes que hacer 'click' en el botón "Mostrar libros" y seguidamente la pagina le mostrará un libro aleatoriamente con sus respectivos datos sobre el libro.</p>
+          <p>Para cambiar de libro se tiene que hacer 'click' en el botón de nuevo.</p>
+        </div>
+    </section>
+    <div id="Mg">
+        <button type="button" id="Btn" onclick="mostrar();" >Mostrar libros</button>
+    </div>
+
+    <div id="divv">
+        <img id="imga" src="img/Logo" alt="portada">
+        <p id="name" ><b>Nombre: </b></p>
+        <p id="aut" ><b>Autor: </b></p>
+        <p id="text"><b>Descripción: </b></p>
+        <p id="calf"><b>Calificación: </b></p>
+        <p id="tipe"><b>Tipo: </b></p>
+        <a id="des" href="">Página del libro</a>
+        
+    </div>
+
+    <script src="javascrip/Proyecto.js"></script>
+    <script> 
+    
+    </script>
+</body>
+</html>

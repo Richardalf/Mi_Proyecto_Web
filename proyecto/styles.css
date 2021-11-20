@@ -1,0 +1,598 @@
+:root {
+    --Color1: #4c3f54;
+    --Color2: #d13525;
+    --color3: #f2c057;
+    --color4: #486824;
+    --color5:#FAF8A3;
+
+}
+* {
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 300px) {
+    body{
+        background-color:black;
+    }
+
+    header {
+      background-color: var(--color3);
+      width: 100%;
+      max-width: 800px;
+      min-height: 100vh;
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+      display: flex;
+      padding-right: 10%;
+    }
+
+    #Bloque {
+        display: inline-block;
+        text-align: center;
+    }
+
+    #ITfondo #IT {
+        top: 25px;
+        min-height: 40vh;
+        padding-top: 4vh;
+        background-color: black;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        right: 10%;
+
+        
+    }
+
+    #ITfondo{
+        background-image: url("https://images.unsplash.com/photo-1419640303358-44f0d27f48e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1385&q=80");
+        min-height: 50vh;
+        position: relative;
+        max-width: 100%;
+    }
+
+    #ITfondo #IT h2 {
+        color: rgb(87, 6, 6);
+        font-size: 20px;
+        text-align: center;
+        color: var(--color3);
+        font-family: 'Balsamiq Sans', cursive;
+    }
+
+
+    #ITfondo #IT P {
+        margin-top: 15px;
+        font-size: 15px;
+        text-align: center;
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+
+    
+
+    nav {
+        width: 100%;
+        color: white; 
+        margin-bottom: 0.5em;
+    }
+      
+    nav ul{
+        width: 99%;
+        margin:  0 auto; 
+    }
+      
+    nav ul li{
+        list-style: none;
+        background-color: var(--color4);
+        border-color: var(--color4);
+        border-style: solid;
+        display: inline-block;
+        padding: 0.4em;
+    }
+      
+    nav ul li:hover{
+        background-color: var(--color3);
+    }
+    
+    nav ul li:active {
+        background-color: #358b91;
+    }
+    
+    nav ul li a:hover{
+        color: black;
+    }
+
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    #lista {
+        width: 20px;
+        height: 20px;
+    }
+    .toggle{
+        width:100%;
+        padding: 0.5em 0.5em;
+        text-align: right;
+        font-size: 1.5em;
+        display: none;
+        background-color: white;
+    }
+ 
+
+
+    #Logo{
+      width: 100px;
+      height: 100px;
+      float: left;
+      margin-left: 25px;
+      animation: movimiento 2.5s linear infinite;
+    }
+
+    @keyframes movimiento {
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(15px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes movimientos {
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(15px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    }
+
+    header > div > h1 {
+      font-size: 20px;
+      position: relative;
+      font-family: 'Times New Roman';
+      color: var(--Color1);
+      
+    }
+
+    header div h2 {
+        font-size: 35px;
+        position: relative;
+        animation: movimientos 2.5s linear infinite;
+        font-family: 'Lobster', cursive;
+        
+    }
+
+    #Mg {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+        background-color: white;
+        padding: 30px;
+    }
+
+    #Btn {
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background-color: var(--color4);
+        color: rgb(255, 255, 255);
+        box-shadow: 1px 1px 2px #2f017a;
+        border-radius: 50px;
+        padding: 5px 15px;
+        font-size: 0.8rem;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    #Btn:hover {
+        background-color: var(--color3);
+        color: black;
+    }
+
+   /* #imga{
+        float: left;
+        margin-right: 20px;
+    }*/
+
+    #divv {
+        display: none;
+        background-color:var(--color3);
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    /*Libros*/
+
+    #divv #imga {
+        width: 250px;
+        height: 400px;
+        margin-left: 10%;
+        padding: 20px;
+        background-color: var(--color5);
+        margin-bottom: 20px;
+    }
+
+    #divv #name {
+        font-size: 28px;
+        padding-top: 25px;
+        margin-bottom: 5px;
+        font-family: 'Acme', sans-serif;
+    }
+
+    #divv #aut {
+        font-size: 25px;
+        margin-bottom: 8px;
+        font-family: 'Jost', sans-serif;
+    }
+
+    #divv #text {
+        font-size: 20px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    #divv p {
+        font-size: 19px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-bottom: 10px;
+
+    }
+
+    #divv a{
+        color:var(--Color1);
+        font-size: 22px;
+        font-weight: bold;
+        text-decoration: none;
+        background-color:var(--color5);
+        padding: 1px;
+        border-radius: 5px;
+
+    }
+}
+
+@media (max-width:639px){
+    .toggle{
+        display: block;
+    }
+    nav ul{
+        width: 90%;
+        display: none;
+    }
+  
+    nav ul li{
+        text-align: center;
+        display: block;      
+    }
+  
+    .mobile{
+        display: block;
+    }
+
+}
+
+
+/*     smarthphone horizontal  & tablets vertical*/
+@media only screen and (min-width:640px) and (max-width:1023px){
+    header div h1 {
+        font-size: 30px;
+    }
+    
+    header div h2{
+        font-size: 50px;
+    }
+
+    header div #Logo {
+        width: 150px;
+        height: 150px;
+        margin-left: 15%;
+    }
+
+    header{
+        max-width: 1023px;
+    }
+
+    #ITfondo{
+        min-height: 80vh;
+    }
+    #ITfondo #IT{
+        top: 0;
+        width: 50%;
+        left: 50%;
+        min-height: 60vh;
+    }
+    #ITfondo #IT h2{
+        font-size: 23px;
+    }
+
+    #ITfondo #IT p {
+        font-size: 18px;
+    }
+
+    nav{
+      font-size: 1.7em; 
+ 
+    }
+  
+    nav ul{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  
+    nav ul li{
+      width: 100%;
+      text-align: center;   
+    }  
+    
+    #divv #imga {
+        float: left;
+        margin-right: 20px;
+        margin-left: 7%;
+    }
+
+    #divv p {
+        margin-left: 10px;
+    }
+    #Btn {
+        font-size: 0.9rem;
+    }
+
+    li > a {
+        font-size: 17px;
+    }
+}
+
+
+/*     tablets horizontal & laptop vertical (touch screen)    */
+@media only screen and (min-width:1024px) and (max-width:1279px){
+    
+    header{
+      height: 7em;
+      max-width: 1300px;
+    }
+      
+    header div h1 {  
+      font-size:2.5em;    
+    }
+    #ITfondo #IT{
+        top:0;
+        width: 50%;
+        left: 50%;
+        padding: 3%;
+        min-height: 60vh;
+    }
+
+    #ITfondo {
+        min-height: 60vh;
+    }
+
+    #ITfondo #IT h2{
+        font-size: 30px;
+    }
+
+    #ITfondo #IT p {
+        font-size: 20px;
+    }
+    header div h2{
+        font-size: 5em;
+    }      
+    nav{
+      font-size: 2em;    
+    }
+      
+    nav ul{
+      width: 100%;
+      display: flex;
+    }
+      
+    nav ul li{
+      width: 100%;
+      text-align: center;
+    }
+    
+    #Logo{
+        width: 200px;
+        height: 200px;
+        margin-left: 13%;
+    }
+
+
+    #Btn {
+        font-size: 1rem;
+    }
+
+    li > a{
+        font-size: 19px;
+    }
+
+    #divv #imga {
+        float: left;
+        margin-right: 20px;
+        margin-left: 7%;
+    }
+}
+
+/*     laptops    & Monitores  */
+@media only screen and (min-width:1280px) and (max-width:1800px){
+    #Logo {
+        width: 220px;
+        height: 220px;
+        margin-left: 13%;
+    }
+    header{
+      height: 10em;
+      max-width: 2120PX;
+    }
+  
+    header div h1 {  
+      font-size:2.5em;
+    }
+
+    header div h2{
+        font-size: 5em;
+    }
+
+    nav{
+      font-size: 2.1em;
+    }    
+    
+    nav ul{
+      width: 100%;
+      display: flex;
+    }
+  
+    nav ul li{
+      width: 100%;
+      text-align: center;   
+    }
+
+    #divv #imga {
+        float: left;
+        margin-right: 20px;
+        margin-left: 7%;
+    }
+    
+
+    #ITfondo #IT{
+        top:0;
+        width: 50%;
+        left: 50%;
+        padding: 3%;
+        min-height: 60vh;
+    }
+
+    #ITfondo {
+        min-height: 60vh;
+    }
+
+    #ITfondo #IT h2 {
+        font-size: 30px;
+        color: var(--color3);
+        
+    }
+
+    #ITfondo #IT p {
+        font-size: 23px;
+        color: white;
+    }
+
+    #Btn {
+        font-size: 1.2rem;
+    }
+
+    #divv #text {
+        font-size: 22px;
+    }   
+}
+
+@media only screen and (min-width:1801px) and (max-width:3000px) {
+    #Logo {
+        width: 250px;
+        height: 250px;
+        margin-left: 20%;
+    }
+    header{
+      height: 10em;
+      max-width: 2120PX;
+    }
+  
+    header div h1 {  
+      font-size:2.5em;
+    }
+
+    header div h2{
+        font-size: 5em;
+
+    }
+
+    nav{
+      font-size: 2.1em;
+    }    
+    
+    nav ul{
+      width: 100%;
+      display: flex;
+    }
+  
+    nav ul li{
+      width: 100%;
+      text-align: center;   
+    }
+
+    #divv #imga {
+        width: 265px;
+        height: 415;
+        float: left;
+        margin-right: 20px;
+        margin-left: 7%;
+        margin-bottom: 110px;
+    }
+    
+    #divv{
+        min-height: 45vh;
+    }
+
+    #ITfondo #IT{
+        top:0;
+        width: 50%;
+        left: 50%;
+        padding: 3%;
+        min-height: 60vh;
+    }
+
+    #ITfondo {
+        min-height: 60vh;
+    }
+
+    #ITfondo #IT h2 {
+        font-size: 45px;
+        color: var(--color3);
+        
+    }
+
+    #ITfondo #IT p {
+        font-size: 35px;
+        color: white;
+        padding: 10px;
+    }
+
+    #Btn {
+        font-size: 1.5rem;
+    }
+
+    #divv #text {
+        font-size: 25px;
+    } 
+
+    #divv #name {
+        font-size: 36px;
+    }
+
+    #divv #aut {
+        font-size: 26px;
+    }
+
+    #divv #calf{
+        font-size: 25px;
+    }
+
+    #divv #tipe {
+        font-size: 25px;
+    }
+
+}
+
