@@ -1,0 +1,18 @@
+header{
+    min-height: 26vh;
+    max-width: 2500px;
+}
+
+header div{
+    margin-top: 20px;
+}
+header div h1{
+    font-size: 80px;
+    color: #f2c057;
+    text-align: center;
+}
+
+.Imagaenes{
+    width: 300px;
+    height: 300px;
+}
