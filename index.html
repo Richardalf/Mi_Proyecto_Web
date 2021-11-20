@@ -5,25 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="proyecto/javascrip/menu.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Jost:wght@300&display=swap" rel="stylesheet">
     <title>Mi portafolio</title>
 </head>
 <body>
     <header>
-        <img id="logo" src="img/logo.png" alt="logo">  
-        <h1>Mi portafolio de proyectos</h1>
+        <div>
+          <img id="logo" src="img/Portafolio.png" alt="logo">  
+          <h1>Mi portafolio de proyectos</h1>
+        </div>
     </header>
     <nav>
-        <ul>
-          <li><a href="#inicio" class="items-nav"><b>Inicio</b></a></li>
-          <li><a href="#acerca" class="items-nav"><b>acerca de</b></a></li>
+        <div class="toggle">
+            <i class="material-icons-outlined" onclick="mobile()"><img id="lista" src="proyecto/img/lista.png" alt="lista"></i>
+        </div>
+        <ul id="idMobile">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="inicio.html">Acerca</a></li>
+            <li><a href="contacto.html">Contacto</a></li>                
         </ul>
     </nav>
-    <h2>Te damos la bienvenida al mundo de la programación</h2>
-    <p>
-        <b>Advertencia:</b>
-        Una vez que inicias este curso, no volverás a ser la misma persona
-        lograrás descubrir muchas cosas que te serviran de mucho
-    </p>
+    <div id="Informacion">
+        <h2>Te damos la bienvenida al mundo de la programación</h2>
+        <p>
+            <b>Advertencia:</b>
+            Una vez que inicias este curso, no volverás a ser la misma persona
+            lograrás descubrir muchas cosas que te serviran de mucho.
+        </p>
+        <p>
+            En esta página se encuentra todos los trabajos realizados durante este curso;
+            el primero es el pokedex, el segundo es el sistema solar, el tercero es la practica sobre una tienda de electrónicay el último es el proyecto final que tiene como temática los libros.
+        </p>
+    </div>
     <div id="Cp">
         <div class="Archivos">
             <a href="Pokedex/pokedex.html"><img src="Pokedex/Pokeimg/logo1.jpg" alt="Pokedex" class="my-image"></a>
@@ -32,7 +48,10 @@
             <a href="sistema_solar/sistema_solar.html"><img src="sistema_solar/img_planetas/Marte.jpg" alt="Sistema solar" class="my-image"></a>
         </div>
         <div class="Archivos">
-            <a href="practica/practica_html.html"><img src="img/lap.jpg" alt="Practica" class="my-image"></a>
+            <a href="practica/Practica_html.html"><img src="img/lap.jpg" alt="Practica" class="my-image"></a>
+        </div>
+        <div class="Archivos">
+            <a href="proyecto/proyecto.html"><img src="proyecto/img/RLibros.png" alt="libros" class="my-image"></a>
         </div>
     </div>
 </body>

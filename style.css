@@ -1,147 +1,382 @@
-@media only screen and (max-width: 500px) {
-    nav {
-        padding: 0px;
-        width: 100%;
-        height: auto;
-        background-color: darkcyan;
-    }
+:root {
+    --Color1: #4c3f54;
+    --Color2: #d13525;
+    --color3: #f2c057;
+    --color4: #486824;
+    --color5:#FAF8A3;
+    --color6:rgb(115, 223, 205); 
 
-    ul {
-        list-style-type: none;
-        margin: 5px 0px;
-        padding: 0;
-        overflow: hidden;
-        background-color: rgb (250, 191, 62);
-        width: 80px;
-    }
-      
-    li {
-        float: left;
-    }
-      
-    li a {
-        display: block;
-        color: black;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-      
-    li a:hover {
-        background-color: rgb(172, 243, 196);
-    }
+}
 
+@media screen and (min-width: 300px) {
+    body{
+        background-color:white;
+    }
     header  {
         padding: 0px;
+        width: 100%;
+        max-width: 700px;
+        min-height: 20vh;
         margin-bottom: 10px;
-        justify-content: space-between;
-        align-items: flex-start;
+        background-color:var(--color6);
     }
+    header div {
+        text-align: center;
+        position: relative;
+
+    }
+
+    #logo{
+        width: 60px;
+        height: 60px;
+    }
+    
+    header div h1{
+        font-size: 25px;
+        margin-bottom: 15px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: var(--Color1);
+        
+    }
+    
+    nav {
+        width: 100%;
+        color: white; 
+        margin-bottom: 0.5em;
+    }
+
+    nav ul{
+        width: 100%;
+        margin:  0 auto; 
+    }
+      
+    nav ul li{
+        list-style: none;
+        background-color: var(--color4);
+        border-color: var(--color4);
+        border-style: solid;
+        display: inline-block;
+        padding: 0.4em;
+    }
+      
+    nav ul li:hover{
+        background-color: var(--color3);
+    }
+    
+    nav ul li:active {
+        background-color: #358b91;
+    }
+    
+    nav ul li a:hover{
+        color: black;
+    }
+
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    
+      
+    
+    #lista {
+        width: 20px;
+        height: 20px;
+    }
+
+    #Informacion{
+        background-color: var(--color3);
+        padding: 15px;
+    }
+
+    #Informacion h2{
+        font-size: 25px;
+        text-align: center;
+        font-family: 'Acme', sans-serif;
+    }
+
+    #Informacion p {
+        font-family: 'Jost', sans-serif;
+    }
+
+    #lista {
+        width: 20px;
+        height: 20px;
+    }
+    .toggle{
+        width:90%;
+        padding: 0.5em 0.5em;
+        text-align: right;
+        font-size: 1.5em;
+        display: none;
+        background-color: white;
+    }
+
     .my-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .Archivos {
+        border-radius: 5px;
+        background-color: var(--color3);
+        border-color: var(--color3);
+        padding: 10px;
+        margin: 15px;
+        display: inline-block;
+    } 
+
+    #Cp {
+        text-align: center;
+        background-color: var(--color4);
+    }
+
+}
+
+
+
+@media (max-width:639px){
+    .toggle{
+        display: block;
+    }
+    nav ul{
+        width: 90%;
+        display: none;
+    }
+  
+    nav ul li{
+        text-align: center;
+        display: block;      
+    }
+  
+    .mobile{
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width:640px) and (max-width:1023px){
+    header div h1 {
+        font-size: 40px;
+        align-items: center;
+        margin-bottom: 15px ;
+        
+    }
+    
+
+    header div #logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    header{
+        max-width: 1023px;
+        min-height: 25vh;
+    }
+
+    nav{
+      font-size: 1.7em; 
+      margin-bottom: 0%;
+      margin-top: 0%;
+ 
+    }
+  
+    nav ul{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 0%;
+      
+    }
+  
+    nav ul li{
+      width: 100%;
+      text-align: center; 
+
+    }  
+    
+    nav ul li > a {
+        font-size: 20px;
+    }
+
+    #Informacion h2{
+        font-size: 30px;
+    }
+
+    #Informacion p {
+        font-family: 'Jost', sans-serif;
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width:1024px) and (max-width:1279px){
+    
+    header{
+      min-height: 26vh;
+      max-width: 1300px;
+      padding-bottom: 10px;
+    }
+      
+    header div h1 {  
+      font-size:35px;    
+    }
+
+    header div h2{
+        font-size: 5em;
+    }      
+    nav{
+      font-size: 2em;
+      
+    }
+    
+    nav ul{
+      width: 100%;
+      display: flex;
+      padding-inline-start: 0px;
+    }
+      
+    nav ul li{
+      width: 100%;
+      text-align: center;
+    }
+    
+    #logo{
         width: 100px;
         height: 100px;
     }
+
+    ul li  a{
+        font-size: 19px;
+    }
+
+    #Informacion h2{
+        font-size: 30px;
+    }
+
+    #Informacion p {
+        font-family: 'Jost', sans-serif;
+        font-size: 20px;
+    }
+
 }
 
-@media only screen and (min-width: 505px) {
-    nav {
-        height: 120px;
+@media only screen and (min-width:1280px) and (max-width:1800px){
+    #logo {
+        width: 150px;
+        height: 150px;
     }
+    header{
+      min-height: 26vh;
+      max-width: 2120PX;
+
+    }
+
+    div{
+        justify-content: center;
+        display: inline-block,
+    }
+    header div h1 {  
+      font-size:4em;
+      padding-top: 0;
+      margin-top: 0;
+    }
+
+
+    nav{
+      font-size: 2.1em;
+      margin-bottom: 0%;
+
+    }    
+    
+    nav ul{
+      width: 100%;
+      display: flex;
+      padding-inline-start: 0px;
+    }
+  
+    nav ul li{
+      width: 100%;
+      text-align: center;   
+    }
+
+    ul li  a{
+        font-size: 24px;
+    }
+
+    #Informacion h2{
+        font-size: 30px;
+    }
+
+    #Informacion p {
+        font-family: 'Jost', sans-serif;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width:1801px) and (max-width:3000px) {
+    #logo {
+        width: 150px;
+        height: 150px;
+    }
+    header{
+        min-height: 25vh;
+        max-width: 2120PX;
+    }
+  
+    header div h1 {  
+      font-size:2.5em;
+    }
+
+
+    nav{
+      font-size: 2.1em;
+      margin-bottom: 0%;
+    }    
+    
+    nav ul{
+      width: 100%;
+      display: flex;
+      padding-inline-start: 0%;
+    }
+  
+    nav ul li{
+      width: 100%;
+      text-align: center;   
+    }
+    #Informacion h2{
+        font-size: 50px;
+    }
+
+    #Informacion p {
+        font-family: 'Jost', sans-serif;
+        font-size: 30px;
+        text-align: center;
+    }
+
     .my-image {
-        width: 100px;
-        height: 100px; 
-    
+        width: 300px;
+        height: 300px;
     }
 
-}
+    .Archivos {
+        border-radius: 5px;
+        background-color: var(--color3);
+        border-color: var(--color3);
+        padding: 10px;
+        margin: 15px;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    } 
 
-@media only screen and (min-width: 700px) {
-    nav {
-        height: 75px;
-        justify-content: flex-start;
+    #Cp {
+        text-align: center;
+        background-color: var(--color4);
+        min-height: 50vh;
     }
+
+    
+
 }
 
-body {
-    background-color: rgb(248, 253, 255);
-}
-    
-#logo {
-    width: 100px;
-    height: 100px;
-    
-}
-    
-header {
-    background-color: rgb(115, 223, 205);
-    color: royalblue;
-    padding: 0 10%;
-     height: 20%;
-}
-    
-header > h1 {
-    display: inline-block;
-    margin-left: 30px;
-    font-size: 50px;
-    position: absolute;
-    text-align: center;
-    
-}
-    
-.my-image {
-    width: 200px;
-    height: 200px;
-}
-    
-nav {
-    margin-left: 30px;
-    margin-right: 120px;
-    background-color: teal;
-}
-    
-p {
-    font-size: 25px;
-    text-align: center;
-}
-    
-h2 {
-    text-align: center;
-}
-    
-.Archivos {
-    border-radius: 5px;
-    background-color: khaki;
-    border-color: khaki;
-     padding: 10px;
-     margin: 5px;
-    display: inline-block;
-} 
-    
-#Cp {
-    text-align: center;
-}
-    
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(250, 191, 62);
-}
-      
-li {
-    float: left;
-}
-      
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;      
-}
-      
-li a:hover {
-    background-color: rgb(172, 243, 196);
-} 
 
